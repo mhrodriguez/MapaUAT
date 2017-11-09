@@ -1,0 +1,25 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: darkorange;
+    color: white;
+}
+
+table
+{
+    font-family:Palatino Linotype;
+}
+
+table.estilo1 tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}

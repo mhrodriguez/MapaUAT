@@ -1,0 +1,143 @@
+﻿/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body 
+	{
+		font-size: 9.5pt;
+	}
+
+	h2
+	{
+		font-size: 1.85em;
+	}
+
+	h3
+	{
+		font-size: 1.5em;
+	}
+
+	.subtitle
+	{
+		font-size: 1.5em;
+	}
+
+	.button
+	{
+	}
+
+		.button-big
+		{
+			font-size: 1.5em;
+		}
+
+		.button-huge
+		{
+			padding: 1em 1em 1.25em 1em;
+			font-size: 1.75em;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+	}
+	
+	#banner-wrapper
+	{
+	padding-top: 0em;
+	padding-right: 0;
+	padding-bottom: 0em;
+	padding-left: 0;
+	}
+	
+	#featured-wrapper
+	{
+		padding: 4em 0 4em 0;
+	}
+	
+	#main-wrapper
+	{
+		padding: 4em 0 4em 0;
+	}
+	
+	#footer-wrapper
+	{
+		padding: 4em 0 0em 0;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+	padding-top: 0em;
+	padding-right: 0;
+	padding-bottom: 0em;
+	padding-left: 0;
+	}
+
+		#header h1
+		{
+			font-size: 2em;
+		}
+
+/*********************************************************************************/
+/* Slider                                                                        */
+/*********************************************************************************/
+	
+	#slider
+	{
+	height: 266px;
+	}
+
+		#slider .viewer
+		{
+		}
+	
+			#slider .viewer .reel .slide
+			{
+				width: 1001px !important;
+			}
+
+				#slider .viewer .reel .slide img
+				{
+					width: 1001px;
+				}
+
+		#slider .info
+		{
+			top: 6em;
+		}
+			
+		#slider .info h2
+		{
+			font-size: 2.5em;
+		}
+		
+		#slider .indicator
+		{
+			bottom: 1.5em;
+		}
+		
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		overflow: hidden;
+		padding-top:1em;
+		padding-bottom: 3em;
+		padding-left:2em;
+		padding-right:2em;
+	}
+
+		#content h2
+		{
+			padding: 0em 0em 0.25em 0em;
+			font-size: 2.75em;
+		}
